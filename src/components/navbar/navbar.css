@@ -87,7 +87,7 @@
     flex-direction: column;
     z-index: 999;
     text-align: end;
-    background: var(--color-footer);
+    background: antiquewhite;
     padding: 2rem;
     position: absolute;
     right: 0;

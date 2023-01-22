@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className='navbar-menu'>
         {toggleMenu ? (
           <RiCloseLine
-            color='#fff'
+            color='#ff9600'
             size={27}
             onClick={() => setToggleMenu(false)}
           />
