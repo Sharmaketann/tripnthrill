@@ -2,8 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+    position: sticky;
+    top:0;
+    background-color: beige;
     padding: 1rem 6rem;
+    z-index: 9999;
   }
   
   .navbar-links {
@@ -15,12 +18,12 @@
   
   .navbar-links_logo {
     margin-right: 2rem;
-    margin-top: 7px;
+    margin-top: 17px;
   }
   
   .navbar-links_logo img {
     width: 100.56px;
-    height: 30.02px;
+    height: 40.02px;
     object-fit: contain;
     transform: scale(4);
   }

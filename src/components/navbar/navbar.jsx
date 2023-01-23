@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import './navbar.css'
+import logo from '../../assets/images/explore.svg'
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -9,7 +10,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='navbar-links'>
         <div className='navbar-links_logo'>
-          <h1>TRIPNTHRILL</h1>
+          <img src={logo} alt="TripNTravl" />
         </div>
         <div className='navbar-links_container'>
           <p>
